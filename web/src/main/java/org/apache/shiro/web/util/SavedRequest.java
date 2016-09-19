@@ -30,6 +30,7 @@ import java.io.Serializable;
 public class SavedRequest implements Serializable {
 
     //TODO - complete JavaDoc
+    private static final long serialVersionUID = 37L;
 
     private String method;
     private String queryString;
